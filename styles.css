@@ -1,0 +1,26 @@
+.block
+{
+    background-color: white;
+}
+
+.container
+{
+    display: grid;
+    width: 700px;
+    height: 700px;
+    grid-template-columns: repeat(32, auto);
+    grid-template-rows: repeat(32, auto);
+    margin: 0px;
+    padding: 0px;
+    border: solid 0.3em;
+    border-color: black;
+    -moz-user-select: none;
+}
+
+body
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
