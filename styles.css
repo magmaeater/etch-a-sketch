@@ -18,6 +18,19 @@
     -webkit-user-drag: none;
 }
 
+.slidecontainer
+{
+    display: flex;
+    width: 700px;
+    justify-content: center;
+    align-items: center;
+}
+
+.slider{
+    width: 700px;
+}
+
+
 body
 {
     display: flex;
